@@ -1,4 +1,3 @@
-
 def pattern_count(text, pattern):
     """Count occurrences of a pattern, including overlapping matches."""
     count = 0
