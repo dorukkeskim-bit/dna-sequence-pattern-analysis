@@ -6,31 +6,31 @@ the occurrences of specified nucleotide patterns and identifying
 the patterns with the highest frequency.
 
 ## Features
-- Counts occurrences of a DNA pattern in a sequence.
-- Handles overlapping pattern matches.
-- Compares multiple patterns.
+
+- Calculates DNA sequence length and nucleotide counts (A, T, G, C).
+- Calculates GC content as a percentage.
+- Generates complementary, reverse, and reverse-complement sequences.
+- Finds all occurrences of specified DNA patterns, including overlapping matches.
+- Reports zero-based starting positions for each pattern.
 - Identifies all patterns tied for the highest occurrence count.
 
-## Example
-DNA sequence: `ATGATGATCCATG`
+## Example Results
 
-Patterns analyzed: `ATG`, `TGA`, `GAT`, `ATC`
+For the sample sequence `ATGATGATCCATG`:
 
-Expected output:
+- Sequence length: 13
+- GC content: 38.46%
+- `ATG` occurs 3 times at positions 0, 3, and 10.
+- Most frequent pattern: `ATG` (3 occurrences)
 
-```text
-DNA sequence: ATGATGATCCATG
-Most frequent patterns: ['ATG']
-Maximum occurrence count: 3
-```
+## Skills Demonstrated
 
-## Concepts Practiced
-- Python functions
+- Python functions and return values
 - Loops and conditional statements
-- String slicing
-- Lists and list operations
-- Basic DNA sequence analysis
+- Lists, dictionaries, and string slicing
+- DNA sequence manipulation
+- Basic algorithm design and testing
 
-## Scope
-This is a beginner-level educational project created to practice
-Python programming concepts in a bioinformatics context.
+## Project Scope
+
+This is a beginner-level educational project developed to practice Python programming in a molecular biology and bioinformatics context. It is not intended to replace validated bioinformatics software or production analysis pipelines.
